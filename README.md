@@ -66,4 +66,8 @@ Epoch 500/500
 15000/15000 [==============================] - 0s 9us/sample - loss: 0.5968 - acc: 0.6963 - val_loss: 0.5941 - val_acc: 0.6868
 ```
 
+**Model Loss**
 
+
+
+**Model Accuracy**
