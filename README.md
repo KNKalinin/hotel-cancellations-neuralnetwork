@@ -2,7 +2,7 @@
 
 In a previous post, a support vector machine (SVM) was used to predict whether a customer that had made a hotel booking would ultimately cancel or not.
 
-Through building the models on the training set and then validating them against a separate test set, the AUC score came in at **0.74**.
+Through building the models on the training set (H1) and then validating them against a separate test set (H2), the AUC score came in at **0.74**.
 
 The purpose of this follow up article is to determine whether a neural network built using Keras demonstrates higher accuracy in predicting hotel cancellations for the test set. In other words, can a higher AUC be achieved by using a neural network instead of an SVM?
 
@@ -16,7 +16,7 @@ Since a neural network is being used, consideration must be given to how the dat
 
 - *minmax_scale* is then used to scale the lead time variable to values between 0 and 1. If the variable is not scaled in accordance with the response variable, then it will be more difficult for the neural network to make proper interpretations.
 
-## Neural Network
+## Neural Network (Building on H1 training set)
 
 The neural network model itself consists of one hidden layer along with a sigmoid activation function:
 
@@ -79,3 +79,6 @@ For the training and validation sets, we can see that the loss is minimised and 
 The model is used to make predictions using predictor data from the validation set, and the AUC generated is **0.747**.
 
 ![auc-1](auc-1.png)
+
+## Predicting for H2 (test set)
+
