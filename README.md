@@ -29,7 +29,7 @@ model.add(layers.Dense(8, activation='relu', input_shape=(4,)))
 model.add(layers.Dense(1, activation='sigmoid'))
 ```
 
-500 epochs are generated using the *adam* optimizer, and the *binary_crossentropy* as a loss measure.
+**500** epochs are generated using the *adam* optimizer, and *binary_crossentropy* is used as a loss measure.
 
 ```
 from tensorflow.keras import optimizers
