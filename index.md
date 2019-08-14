@@ -25,7 +25,7 @@ Since a neural network is being used, consideration must be given to how the dat
 ## Neural Network (Building on H1 training set)
 
 The neural network model itself consists of one hidden layer along with a sigmoid activation function:
-
+a
 ```
 from tensorflow.keras import models
 from tensorflow.keras import layers
