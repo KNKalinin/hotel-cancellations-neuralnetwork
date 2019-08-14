@@ -1,6 +1,6 @@
 # Predicting Hotel Cancellations with a Keras Neural Network: Part 2
 
-In a ![previous post](https://www.michael-grogan.com/hotel-cancellations/), a support vector machine (SVM) was used to predict whether a customer that had made a hotel booking would ultimately cancel or not.
+In a [previous post](https://www.michael-grogan.com/hotel-cancellations/), a support vector machine (SVM) was used to predict whether a customer that had made a hotel booking would ultimately cancel or not.
 
 Through building the models on the training set (H1) and then validating them against a separate test set (H2), the AUC score came in at **0.74**.
 
