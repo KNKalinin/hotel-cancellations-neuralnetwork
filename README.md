@@ -76,3 +76,6 @@ Epoch 500/500
 
 For the training and validation sets, we can see that the loss is minimised and accuracy maximized after approximately 100 epochs, not withstanding the fact that there is some volatility in validation accuracy across each epoch.
 
+The model is used to make predictions using predictor data from the validation set, and the AUC generated is **0.747**.
+
+![auc-1](auc-1.png)
