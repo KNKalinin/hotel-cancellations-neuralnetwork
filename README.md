@@ -1,3 +1,9 @@
+[Home](https://mgcodesandstats.github.io/) |
+[Portfolio](https://mgcodesandstats.github.io/portfolio/) |
+[Terms and Conditions](https://mgcodesandstats.github.io/terms/) |
+[E-mail me](mailto:contact@michaeljgrogan.com) |
+[LinkedIn](https://www.linkedin.com/in/michaeljgrogan/)
+
 # Predicting Hotel Cancellations with a Keras Neural Network: Part 2
 
 In a [previous post](https://www.michael-grogan.com/hotel-cancellations/), a support vector machine (SVM) was used to predict whether a customer that had made a hotel booking would ultimately cancel or not.
