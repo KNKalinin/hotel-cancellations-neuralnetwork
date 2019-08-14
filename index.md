@@ -14,7 +14,7 @@ The purpose of this follow up article is to determine whether a neural network b
 
 ## Scaling data
 
-The full code containing the output in a Jupyter notebook is available at the following GitHub repository.
+The full code containing the output in a Jupyter notebook is available at the following [GitHub repository](https://github.com/MGCodesandStats/hotel-cancellations-neuralnetwork).
 
 Since a neural network is being used, consideration must be given to how the data is processed before the model is run outright. Using the binary cancellation variable (0 = no cancellation or 1 = cancellation) as the response variable, **country**, **deposit type**, and **lead time** are used as the predictor variables. Specifically, two factors are taken into consideration:
 
