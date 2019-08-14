@@ -47,4 +47,23 @@ history=model.fit(x1_train,
                   validation_data=(x1_test, y1_test))
 ```
 
+The 500 epochs are run, and here are some of the results:
+
+```
+Train on 15000 samples, validate on 5000 samples
+Epoch 1/500
+15000/15000 [==============================] - 1s 100us/sample - loss: 1.3946 - acc: 0.4633 - val_loss: 0.7325 - val_acc: 0.4940
+Epoch 2/500
+15000/15000 [==============================] - 0s 9us/sample - loss: 0.7447 - acc: 0.5000 - val_loss: 0.7285 - val_acc: 0.4410
+Epoch 3/500
+15000/15000 [==============================] - 0s 8us/sample - loss: 0.7250 - acc: 0.4658 - val_loss: 0.7250 - val_acc: 0.4936
+.....
+Epoch 498/500
+15000/15000 [==============================] - 0s 8us/sample - loss: 0.5968 - acc: 0.6833 - val_loss: 0.5951 - val_acc: 0.6818
+Epoch 499/500
+15000/15000 [==============================] - 0s 8us/sample - loss: 0.5966 - acc: 0.6962 - val_loss: 0.5944 - val_acc: 0.7052
+Epoch 500/500
+15000/15000 [==============================] - 0s 9us/sample - loss: 0.5968 - acc: 0.6963 - val_loss: 0.5941 - val_acc: 0.6868
+```
+
 
