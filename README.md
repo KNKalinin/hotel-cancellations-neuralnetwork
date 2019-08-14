@@ -16,3 +16,33 @@ Since a neural network is being used, consideration must be given to how the dat
 
 - *minmax_scale* is then used to scale the lead time variable to values between 0 and 1. If the variable is not scaled in accordance with the response variable, then it will be more difficult for the neural network to make proper interpretations.
 
+## Neural Network
+
+The neural network model itself consists of one hidden layer along with a sigmoid activation function:
+
+```
+from tensorflow.keras import models
+from tensorflow.keras import layers
+
+model = models.Sequential()
+model.add(layers.Dense(8, activation='relu', input_shape=(4,)))
+model.add(layers.Dense(1, activation='sigmoid'))
+```
+
+500 epochs are generated using the *adam* optimizer, and the *binary_crossentropy* as a loss measure.
+
+```
+from tensorflow.keras import optimizers
+from tensorflow.keras import losses
+from tensorflow.keras import metrics
+
+model.compile(optimizer='adam',
+              loss='binary_crossentropy',
+              metrics=['acc'])
+
+history=model.fit(x1_train,
+                  y1_train,
+                  epochs=500,
+                  batch_size=512,
+                  validation_data=(x1_test, y1_test))
+```
