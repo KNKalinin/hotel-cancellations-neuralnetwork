@@ -68,6 +68,8 @@ Epoch 500/500
 
 **Model Loss**
 
-
+![model-loss](model-loss.png)
 
 **Model Accuracy**
+
+![model-accuracy](model-accuracy.png)
