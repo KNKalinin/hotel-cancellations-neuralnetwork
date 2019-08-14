@@ -66,10 +66,13 @@ Epoch 500/500
 15000/15000 [==============================] - 0s 9us/sample - loss: 0.5968 - acc: 0.6963 - val_loss: 0.5941 - val_acc: 0.6868
 ```
 
-**Model Loss**
+### Model Loss
 
 ![model-loss](model-loss.png)
 
 **Model Accuracy**
 
 ![model-accuracy](model-accuracy.png)
+
+For the training and validation sets, we can see that the loss is minimised and accuracy maximized after approximately 100 epochs, not withstanding the fact that there is some volatility in validation accuracy across each epoch.
+
