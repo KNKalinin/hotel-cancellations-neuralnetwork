@@ -4,7 +4,7 @@
 [E-mail me](mailto:contact@michaeljgrogan.com) |
 [LinkedIn](https://www.linkedin.com/in/michaeljgrogan/)
 
-# Predicting Hotel Cancellations with a Keras Neural Network: Part 2
+# Part 2: Predicting Hotel Cancellations with a Keras Neural Network
 
 *This is Part 2 of a three part study on predicting hotel cancellations with machine learning.*
 
