@@ -6,7 +6,7 @@
 
 # Part 2: Predicting Hotel Cancellations with a Keras Neural Network
 
-*This is Part 2 of a three part study on predicting hotel cancellations with machine learning.*
+*This is Part 2 of a four part study on predicting hotel cancellations with machine learning.*
 
 *[- Part 1: Predicting Hotel Cancellations with Support Vector Machines and ARIMA](https://www.michael-grogan.com/hotel-cancellations)*
 
