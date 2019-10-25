@@ -12,8 +12,6 @@
 
 *[- Part 3: Predicting Weekly Hotel Cancellations with an LSTM Network](https://www.michael-grogan.com/hotel-cancellations-lstm)*
 
-*[- Part 4: Displaying AUC Results with Django Web App](https://www.michael-grogan.com/hotel-django/)*
-
 In a [previous post](https://www.michael-grogan.com/hotel-cancellations/), a support vector machine (SVM) was used to predict whether a customer that had made a hotel booking would ultimately cancel or not.
 
 Through building the models on the training set (H1) and then validating them against a separate test set (H2), the AUC score generated was **0.74**.
